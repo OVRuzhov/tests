@@ -57,7 +57,7 @@
           "subtitle": {
             "text": "• от 100 000Р\r\n• от 3.6% до 4.5%\r\n• без пополнения\r\n• без снятия",
             "typeface": "footnote1",
-            "text_color": "secondary",
+            "text_color": "critical",
             "max_lines": 4,
             "margins": {
               "top": "1x"
@@ -289,7 +289,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "moneybox"
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
