@@ -33,11 +33,11 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "coin"
           },
           "size": {
-            "width": "medium",
-            "height": "medium"
+            "width": "large",
+            "height": "large"
           },
           "margins": {
             "top": "5x",
@@ -45,12 +45,12 @@
             "bottom": "5x",
             "left": "8x"
           },
-          "tint_color": "solid_white"
+          "tint_color": "solid_brand"
         },
         "title": {
           "text": "Дополнительный процент",
           "typeface": "body1",
-          "text_color": "default",
+          "text_color": "brand",
           "max_lines": 1,
           "margins": {
             "top": "9x",
