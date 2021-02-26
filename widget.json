@@ -32,8 +32,8 @@
         "type": "simple_left_view",
         "icon": {
           "address": {
-            "type": "local",
-            "identificator": "safe"
+            "type": "mono",
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
@@ -90,8 +90,8 @@
         "type": "simple_left_view",
         "icon": {
           "address": {
-            "type": "local",
-            "identificator": "safe"
+            "type": "mono",
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
@@ -144,7 +144,7 @@
         "type": "simple_left_view",
         "icon": {
           "address": {
-            "type": "local",
+            "type": "mono",
             "identificator": "safe"
           },
           "size": {
@@ -197,8 +197,8 @@
         "type": "simple_left_view",
         "icon": {
           "address": {
-            "type": "local",
-            "identificator": "safe"
+            "type": "mono",
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
