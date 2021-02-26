@@ -141,13 +141,7 @@
           "left": "2x"
         },
         "vertical_gravity": "top"
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Накопительный счет"
-        }
-      ]
+      }
     }
   ]
 }
