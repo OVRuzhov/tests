@@ -33,7 +33,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "safe"
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
@@ -97,7 +97,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "safe"
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
@@ -161,7 +161,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "moneybox"
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
@@ -225,7 +225,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "safe"
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
@@ -289,7 +289,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "safe"
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
