@@ -310,6 +310,7 @@
             "text": "• от 30 000Р • от 1.64% до 2.55%\r\n• с пополнением\n• со снятием",
             "typeface": "footnote1",
             "text_color": "secondary",
+            "max_lines": 2
             "margins": {
               "top": "1x"
             }
