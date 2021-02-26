@@ -33,7 +33,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "gift"
+            "identificator": "recommend"
           },
           "size": {
             "width": "medium",
@@ -161,7 +161,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "coin"
+            "identificator": "moneybox"
           },
           "size": {
             "width": "medium",
@@ -225,7 +225,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "moneybag"
+            "identificator": "total"
           },
           "size": {
             "width": "medium",
@@ -289,7 +289,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "chess_piece"
+            "identificator": "gamepad"
           },
           "size": {
             "width": "medium",
