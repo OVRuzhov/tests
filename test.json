@@ -121,7 +121,7 @@
           "subtitle": {
             "text": "• от 0Р\r\n• 3%\r\n• с пополнением\r\n• со снятием",
             "typeface": "footnote1",
-            "text_color": "inverse",
+            "text_color": "secondary",
             "max_lines": 4,
             "margins": {
               "top": "1x"
@@ -289,7 +289,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "coin"
+            "identificator": "moneybox"
           },
           "size": {
             "width": "medium",
