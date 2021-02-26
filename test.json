@@ -115,13 +115,13 @@
         "texts": {
           "title": {
             "text": "Накопительный счет",
-            "typeface": "body1",
+            "typeface": "button1",
             "text_color": "brand"
           },
           "subtitle": {
             "text": "• от 0Р\r\n• 3%\r\n• с пополнением\r\n• со снятием",
             "typeface": "footnote1",
-            "text_color": "secondary",
+            "text_color": "tertiary",
             "max_lines": 4,
             "margins": {
               "top": "1x"
@@ -179,7 +179,7 @@
         "texts": {
           "title": {
             "text": "Пополняй",
-            "typeface": "body1",
+            "typeface": "body2",
             "text_color": "brand"
           },
           "subtitle": {
