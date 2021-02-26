@@ -243,13 +243,13 @@
         "texts": {
           "title": {
             "text": "Сохраняй",
-            "typeface": "body1",
+            "typeface": "body3",
             "text_color": "brand"
           },
           "subtitle": {
             "text": "• от 1000Р\r\n• от 1.65% до 3.5%\r\n• без пополнения\r\n• без снятия",
             "typeface": "footnote1",
-            "text_color": "solid_white",
+            "text_color": "default",
             "max_lines": 4,
             "margins": {
               "top": "1x"
@@ -307,7 +307,7 @@
         "texts": {
           "title": {
             "text": "Управляй",
-            "typeface": "body1",
+            "typeface": "body2",
             "text_color": "brand"
           },
           "subtitle": {
