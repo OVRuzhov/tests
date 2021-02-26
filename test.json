@@ -4,7 +4,7 @@
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Изменить реквизиты перевода",
+        "text": "Вклады и счета",
         "typeface": "headline3",
         "text_color": "default",
         "max_lines": 2
@@ -48,7 +48,7 @@
           "tint_color": "solid_white"
         },
         "title": {
-          "text": "Счет списания",
+          "text": "Дополнительный процент",
           "typeface": "body1",
           "text_color": "default",
           "max_lines": 1,
@@ -70,7 +70,7 @@
       "actions": [
         {
           "type": "text",
-          "text": "Изменить счет списания"
+          "text": "Дополнительный процент"
         }
       ]
     }
