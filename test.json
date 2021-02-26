@@ -33,7 +33,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "recommend"
+            "identificator": "safe"
           },
           "size": {
             "width": "medium",
