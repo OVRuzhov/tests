@@ -225,7 +225,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "total"
+            "identificator": "safe"
           },
           "size": {
             "width": "medium",
