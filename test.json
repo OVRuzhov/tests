@@ -123,7 +123,7 @@
           "subtitle": {
             "text": "• от 0Р • до 3% • c пополнением • со снятием",
             "typeface": "footnote1",
-            "text_color": "secondary",
+            "text_color": "warning",
             "margins": {
               "top": "1x"
             }
