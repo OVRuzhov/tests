@@ -4,7 +4,7 @@
     {
       "type": "text_cell_view",
       "content": {
-        "text": "Изменить реквизиты перевода",
+        "text": "Вклады и счета",
         "typeface": "headline3",
         "text_color": "default",
         "max_lines": 2
@@ -33,7 +33,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "safe"
           },
           "size": {
             "width": "medium",
@@ -45,10 +45,10 @@
             "bottom": "5x",
             "left": "8x"
           },
-          "tint_color": "solid_white"
+          "tint_color": "brand"
         },
         "title": {
-          "text": "Счет списания",
+          "text": "Дополнительный процент",
           "typeface": "body1",
           "text_color": "default",
           "max_lines": 1,
@@ -70,7 +70,7 @@
       "actions": [
         {
           "type": "text",
-          "text": "Изменить счет списания"
+          "text": "Дополнительный процент"
         }
       ]
     },
@@ -91,7 +91,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "safe"
           },
           "size": {
             "width": "medium",
@@ -103,10 +103,10 @@
             "bottom": "5x",
             "left": "8x"
           },
-          "tint_color": "solid_white"
+          "tint_color": "brand"
         },
         "title": {
-          "text": "Счет зачисления",
+          "text": "Накопительный счёт",
           "typeface": "body1",
           "text_color": "default",
           "max_lines": 1,
@@ -128,7 +128,7 @@
       "actions": [
         {
           "type": "text",
-          "text": "Изменить счет зачисления"
+          "text": "Накопительный счёт"
         }
       ]
     },
@@ -145,7 +145,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "color_total"
+            "identificator": "safe"
           },
           "size": {
             "width": "medium",
@@ -159,7 +159,7 @@
           }
         },
         "title": {
-          "text": "Сумма списания",
+          "text": "Сохраняй",
           "typeface": "body1",
           "text_color": "default",
           "max_lines": 1,
@@ -181,7 +181,60 @@
       "actions": [
         {
           "type": "text",
-          "text": "Изменить сумму"
+          "text": "Сохраняй"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "safe"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          }
+        },
+        "title": {
+          "text": "Пополняй",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Пополняй"
         }
       ]
     }
