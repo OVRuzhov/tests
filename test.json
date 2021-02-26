@@ -113,10 +113,13 @@
           },
           "tint_color": "solid_brand"
         },
-        "title": {
-          "text": "Накопительный счет",
-          "typeface": "body1",
-          "text_color": "brand",
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Накопительный счет",
+            "typeface": "body1",
+            "text_color": "default"
+          },
           "subtitle": {
             "text": "от 0Р",
             "typeface": "footnote1",
@@ -124,12 +127,6 @@
             "margins": {
               "top": "1x"
             }
-          },
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x",
-            "left": "8x"
           }
         }
       },
