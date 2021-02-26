@@ -36,8 +36,8 @@
             "identificator": "coin"
           },
           "size": {
-            "width": "large",
-            "height": "large"
+            "width": "medium",
+            "height": "medium"
           },
           "margins": {
             "top": "5x",
@@ -47,23 +47,20 @@
           },
           "tint_color": "solid_brand"
         },
-        "title": {
-          "text": "Дополнительный процент",
-          "typeface": "body1",
-          "text_color": "brand",
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Дополнительный процент",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
           "subtitle": {
-            "text": "от 100 000Р",
+            "text": "• от 100 000Р • от 3.6% до 4.5%",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
               "top": "1x"
             }
-          },
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x",
-            "left": "8x"
           }
         }
       },
@@ -121,70 +118,7 @@
             "text_color": "brand"
           },
           "subtitle": {
-            "text": "• от 0Р • до 3%",
-            "typeface": "footnote1",
-            "text_color": "secondary",
-            "margins": {
-              "top": "1x"
-            }
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Накопительный счет"
-        }
-      ]
-    },
-    {
-      "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "paddings": {
-        "left": "0x",
-        "top": "6x",
-        "right": "0x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "coin"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
-            "left": "8x"
-          },
-          "tint_color": "solid_brand"
-        },
-        "icon_vertical_gravity": "center",
-        "texts": {
-          "title": {
-            "text": "Накопительный счет",
-            "typeface": "body1",
-            "text_color": "brand"
-          },
-          "subtitle": {
-            "text": "• от 0Р • до 3% • с ",
+            "text": "• от 0Р • 3%",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
@@ -247,7 +181,7 @@
             "text_color": "brand"
           },
           "subtitle": {
-            "text": "• от 0Р • до 3% • с пополнением • без снятия",
+            "text": "• от 1000Р • от 2.15% до 3.05%",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
@@ -268,6 +202,132 @@
         {
           "type": "text",
           "text": "Пополняй"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "coin"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Сохраняй",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "subtitle": {
+            "text": "• от 1000Р • от 1.65% до 3.5%",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Сохраняй"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "coin"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Управляй",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "subtitle": {
+            "text": "• от 30 000Р • от 1.64% до 2.55%",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Управляй"
         }
       ]
     }
