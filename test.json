@@ -51,6 +51,14 @@
           "text": "Дополнительный процент",
           "typeface": "body1",
           "text_color": "brand",
+          "subtitle": {
+            "text": "от 100 000Р",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "margins": {
+              "top": "1x"
+            }
+          },
           "max_lines": 1,
           "margins": {
             "top": "9x",
