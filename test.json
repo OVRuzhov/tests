@@ -307,7 +307,7 @@
             "text_color": "brand"
           },
           "subtitle": {
-            "text": "• от 30 000Р • от 1.64% до 2.55%",
+            "text": "• от 30 000Р • от 1.64% до 2.55%\n• с пополнением\n• со снятием",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
