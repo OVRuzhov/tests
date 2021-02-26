@@ -115,13 +115,13 @@
         "texts": {
           "title": {
             "text": "Накопительный счет",
-            "typeface": "button1",
+            "typeface": "body1",
             "text_color": "brand"
           },
           "subtitle": {
             "text": "• от 0Р\r\n• 3%\r\n• с пополнением\r\n• со снятием",
             "typeface": "footnote1",
-            "text_color": "tertiary",
+            "text_color": "inverse",
             "max_lines": 4,
             "margins": {
               "top": "1x"
@@ -179,7 +179,7 @@
         "texts": {
           "title": {
             "text": "Пополняй",
-            "typeface": "body2",
+            "typeface": "body1",
             "text_color": "brand"
           },
           "subtitle": {
@@ -243,7 +243,7 @@
         "texts": {
           "title": {
             "text": "Сохраняй",
-            "typeface": "body3",
+            "typeface": "body1",
             "text_color": "brand"
           },
           "subtitle": {
@@ -289,7 +289,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "gamepad"
+            "identificator": "safe"
           },
           "size": {
             "width": "medium",
@@ -307,7 +307,7 @@
         "texts": {
           "title": {
             "text": "Управляй",
-            "typeface": "body2",
+            "typeface": "body1",
             "text_color": "brand"
           },
           "subtitle": {
