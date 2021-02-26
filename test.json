@@ -118,7 +118,7 @@
           "title": {
             "text": "Накопительный счет",
             "typeface": "body1",
-            "text_color": "brand"
+            "text_color": "default"
           },
           "subtitle": {
             "text": "от 0Р",
@@ -131,17 +131,17 @@
         }
       },
       "right": {
-          "type": "detail_right_view",
-          "detail": {
-            "text": "до 3%",
-            "typeface": "body1",
-            "text_color": "brand"
-          },
-          "margins": {
-            "left": "2x"
-          },
-          "vertical_gravity": "top"
+        "type": "detail_right_view",
+        "detail": {
+          "text": "-6 000 ₽",
+          "typeface": "body1",
+          "text_color": "warning"
         },
+        "margins": {
+          "left": "2x"
+        },
+        "vertical_gravity": "top"
+      },
       "actions": [
         {
           "type": "text",
