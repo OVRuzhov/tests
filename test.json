@@ -249,7 +249,7 @@
           "subtitle": {
             "text": "• от 1000Р\r\n• от 1.65% до 3.5%\r\n• без пополнения\r\n• без снятия",
             "typeface": "footnote1",
-            "text_color": "secondary",
+            "text_color": "solid_white",
             "max_lines": 4,
             "margins": {
               "top": "1x"
