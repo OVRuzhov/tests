@@ -121,7 +121,7 @@
             "text_color": "default"
           },
           "subtitle": {
-            "text": "от 0Р",
+            "text": "от 0Р\nот 0Р",
             "typeface": "footnote1",
             "text_color": "secondary",
             "margins": {
@@ -131,17 +131,19 @@
         }
       },
       "right": {
-        "type": "detail_right_view",
-        "detail": {
-          "text": "-6 000 ₽",
-          "typeface": "body1",
-          "text_color": "warning"
-        },
+        "type": "disclosure_right_view",
         "margins": {
-          "left": "2x"
-        },
-        "vertical_gravity": "top"
-      }
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Накопительный счет"
+        }
+      ]
     }
   ]
 }
