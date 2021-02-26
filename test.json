@@ -55,9 +55,10 @@
             "text_color": "brand"
           },
           "subtitle": {
-            "text": "• от 100 000Р • от 3.6% до 4.5%",
+            "text": "• от 100 000Р\r\n• от 3.6% до 4.5%\r\n• без пополнения\r\n• без снятия",
             "typeface": "footnote1",
             "text_color": "secondary",
+            "max_lines": 4,
             "margins": {
               "top": "1x"
             }
@@ -118,9 +119,10 @@
             "text_color": "brand"
           },
           "subtitle": {
-            "text": "• от 0Р • 3%",
+            "text": "• от 0Р\r\n• 3%\r\n• с пополнением\r\n• со снятием",
             "typeface": "footnote1",
             "text_color": "secondary",
+            "max_lines": 4,
             "margins": {
               "top": "1x"
             }
@@ -181,9 +183,10 @@
             "text_color": "brand"
           },
           "subtitle": {
-            "text": "• от 1000Р • от 2.15% до 3.05%",
+            "text": "• от 1000Р\r\n• от 2.15% до 3.05%\r\n• с пополнением\r\n• без снятия",
             "typeface": "footnote1",
             "text_color": "secondary",
+            "max_lines": 4,
             "margins": {
               "top": "1x"
             }
@@ -244,7 +247,7 @@
             "text_color": "brand"
           },
           "subtitle": {
-            "text": "• от 1000Р\r\n• от 1.65% до 3.5%\r\n•без пополнения\r\n• без снятия",
+            "text": "• от 1000Р\r\n• от 1.65% до 3.5%\r\n• без пополнения\r\n• без снятия",
             "typeface": "footnote1",
             "text_color": "secondary",
             "max_lines": 4,
