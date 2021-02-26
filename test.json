@@ -102,7 +102,7 @@
             "identificator": "coin"
           },
           "size": {
-            "width": "mediunm",
+            "width": "medium",
             "height": "medium"
           },
           "margins": {
@@ -121,9 +121,9 @@
             "text_color": "brand"
           },
           "subtitle": {
-            "text": "от 0Р, до 3%, со снятем и пополнением",
+            "text": "от 0Р, до 3%",
             "typeface": "footnote1",
-            "text_color": "warning",
+            "text_color": "secondary",
             "margins": {
               "top": "1x"
             }
