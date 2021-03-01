@@ -29,65 +29,214 @@
         "bottom": "8x"
       },
       "left": {
-        "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "coin"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "top": "5x",
-              "right": "6x",
-              "bottom": "5x",
-              "left": "8x"
-            },
-            "tint_color": "solid_brand"
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
           },
-          "icon_vertical_gravity": "center",
-          "texts": {
-            "title": {
-              "text": "Пополняй",
-              "typeface": "body1",
-              "text_color": "brand"
-            },
-            "subtitle": {
-              "text": "• от 1 000 ₽\r\n• от 2.15 до 3.05\r\n• с пополнением\r\n• без снятия",
-              "typeface": "footnote1",
-              "text_color": "default",
-              "max_lines": 4,
-              "margins": {
-                "top": "1x"
-              }
-            }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
           "margins": {
-            "top": "8x",
-            "right": "4x",
-            "bottom": "8x"
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "brand"
+        },
+        "title": {
+          "text": "Дополнительный процент",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Дополнительный процент"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          },
+          "tint_color": "brand"
+        },
+        "title": {
+          "text": "Накопительный счёт",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Накопительный счёт"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
           }
         },
-        "actions": [
-          {
-            "type": "text",
-            "text": "Пополняй"
-          },
-          {
-            "type": "server_action",
-            "message_name": "SERVER_ACTION",
-            "server_action": {
-              "action_id": "92"
-            }
+        "title": {
+          "text": "Сохраняй",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
           }
-        ]
-      }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Сохраняй"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "arrow_right_trace_line"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
+          "margins": {
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
+            "left": "8x"
+          }
+        },
+        "title": {
+          "text": "Пополняй",
+          "typeface": "body1",
+          "text_color": "default",
+          "max_lines": 1,
+          "margins": {
+            "top": "9x",
+            "bottom": "9x",
+            "left": "8x"
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Пополняй"
+        }
+      ]
     }
   ]
 }
