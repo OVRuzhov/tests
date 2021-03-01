@@ -45,7 +45,7 @@
             "bottom": "5x",
             "left": "8x"
           },
-          "tint_color": "brand"
+          "tint_color": "solid_brand"
         },
         "title": {
           "text": "Дополнительный процент",
@@ -103,7 +103,7 @@
             "bottom": "5x",
             "left": "8x"
           },
-          "tint_color": "brand"
+          "tint_color": "solid_brand"
         },
         "title": {
           "text": "Накопительный счёт",
