@@ -33,7 +33,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
@@ -47,15 +47,21 @@
           },
           "tint_color": "solid_brand"
         },
-        "title": {
-          "text": "Дополнительный процент",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x",
-            "left": "8x"
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Дополнительный процент",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "subtitle": {
+            "text": "• от 100 000Р\r\n• от 3.6% до 4.5%\r\n• без пополнения\r\n• без снятия",
+            "typeface": "footnote1",
+            "text_color": "critical",
+            "max_lines": 4,
+            "margins": {
+              "top": "1x"
+            }
           }
         }
       },
@@ -91,7 +97,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
@@ -105,15 +111,21 @@
           },
           "tint_color": "solid_brand"
         },
-        "title": {
-          "text": "Накопительный счёт",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x",
-            "left": "8x"
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Накопительный счет",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "subtitle": {
+            "text": "• от 0Р\r\n• 3%\r\n• с пополнением\r\n• со снятием",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "max_lines": 4,
+            "margins": {
+              "top": "1x"
+            }
           }
         }
       },
@@ -128,12 +140,16 @@
       "actions": [
         {
           "type": "text",
-          "text": "Накопительный счёт"
+          "text": "Накопительный счет"
         }
       ]
     },
     {
       "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
       "paddings": {
         "left": "0x",
         "top": "6x",
@@ -145,7 +161,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
@@ -156,17 +172,88 @@
             "right": "6x",
             "bottom": "5x",
             "left": "8x"
-          }
+          },
+          "tint_color": "solid_brand"
         },
-        "title": {
-          "text": "Сохраняй",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Пополняй",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "subtitle": {
+            "text": "• от 1000Р\r\n• от 2.15% до 3.05%\r\n• с пополнением\r\n• без снятия",
+            "typeface": "footnote1",
+            "text_color": "secondary",
+            "max_lines": 4,
+            "margins": {
+              "top": "1x"
+            }
+          }
+        }
+      },
+      "right": {
+        "type": "disclosure_right_view",
+        "margins": {
+          "top": "8x",
+          "right": "4x",
+          "bottom": "8x"
+        }
+      },
+      "actions": [
+        {
+          "type": "text",
+          "text": "Пополняй"
+        }
+      ]
+    },
+    {
+      "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
+      "paddings": {
+        "left": "0x",
+        "top": "6x",
+        "right": "0x",
+        "bottom": "8x"
+      },
+      "left": {
+        "type": "simple_left_view",
+        "icon": {
+          "address": {
+            "type": "local",
+            "identificator": "coin"
+          },
+          "size": {
+            "width": "medium",
+            "height": "medium"
+          },
           "margins": {
-            "top": "9x",
-            "bottom": "9x",
+            "top": "5x",
+            "right": "6x",
+            "bottom": "5x",
             "left": "8x"
+          },
+          "tint_color": "solid_brand"
+        },
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Сохраняй",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "subtitle": {
+            "text": "• от 1000Р\r\n• от 1.65% до 3.5%\r\n• без пополнения\r\n• без снятия",
+            "typeface": "footnote1",
+            "text_color": "default",
+            "max_lines": 4,
+            "margins": {
+              "top": "1x"
+            }
           }
         }
       },
@@ -187,6 +274,10 @@
     },
     {
       "type": "left_right_cell_view",
+      "divider": {
+        "style": "default",
+        "size": "d5"
+      },
       "paddings": {
         "left": "0x",
         "top": "6x",
@@ -198,7 +289,7 @@
         "icon": {
           "address": {
             "type": "local",
-            "identificator": "arrow_right_trace_line"
+            "identificator": "coin"
           },
           "size": {
             "width": "medium",
@@ -209,17 +300,24 @@
             "right": "6x",
             "bottom": "5x",
             "left": "8x"
-          }
+          },
+          "tint_color": "solid_brand"
         },
-        "title": {
-          "text": "Пополняй",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x",
-            "left": "8x"
+        "icon_vertical_gravity": "center",
+        "texts": {
+          "title": {
+            "text": "Управляй",
+            "typeface": "body1",
+            "text_color": "brand"
+          },
+          "subtitle": {
+            "text": "• от 30 000Р\r\n• от 1.64% до 2.55%\r\n• с пополнением\r\n• со снятием",
+            "typeface": "footnote1",
+            "text_color": "warning",
+            "max_lines": 4,
+            "margins": {
+              "top": "1x"
+            }
           }
         }
       },
@@ -234,7 +332,7 @@
       "actions": [
         {
           "type": "text",
-          "text": "Пополняй"
+          "text": "Управляй"
         }
       ]
     }
