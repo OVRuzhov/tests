@@ -1,94 +1,95 @@
 {
-"card": {
-  "type": "list_card",
-  "cells": [
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Вклады и счета",
-        "typeface": "headline3",
-        "text_color": "default",
-        "max_lines": 2
+  "card": {
+    "type": "list_card",
+    "cells": [
+      {
+        "type": "text_cell_view",
+        "content": {
+          "text": "Вклады и счета",
+          "typeface": "headline3",
+          "text_color": "default",
+          "max_lines": 2
+        },
+        "paddings": {
+          "left": "8x",
+          "top": "6x",
+          "right": "8x",
+          "bottom": "8x"
+        }
       },
-      "paddings": {
-        "left": "8x",
-        "top": "6x",
-        "right": "8x",
-        "bottom": "8x"
-      }
-    },
-    {
-      "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "paddings": {
-        "left": "0x",
-        "top": "6x",
-        "right": "0x",
-        "bottom": "8x"
-      },
-      "left": {
+      {
+        "type": "left_right_cell_view",
+        "divider": {
+          "style": "default",
+          "size": "d5"
+        },
+        "paddings": {
+          "left": "0x",
+          "top": "6x",
+          "right": "0x",
+          "bottom": "8x"
+        },
         "left": {
-          "type": "simple_left_view",
-          "icon": {
-            "address": {
-              "type": "local",
-              "identificator": "coin"
-            },
-            "size": {
-              "width": "medium",
-              "height": "medium"
-            },
-            "margins": {
-              "top": "5x",
-              "right": "6x",
-              "bottom": "5x",
-              "left": "8x"
-            },
-            "tint_color": "solid_brand"
-          },
-          "icon_vertical_gravity": "center",
-          "texts": {
-            "title": {
-              "text": "Пополняй",
-              "typeface": "body1",
-              "text_color": "brand"
-            },
-            "subtitle": {
-              "text": "• от 1 000 ₽\r\n• от 2.15 до 3.05\r\n• с пополнением\r\n• без снятия",
-              "typeface": "footnote1",
-              "text_color": "default",
-              "max_lines": 4,
+          "left": {
+            "type": "simple_left_view",
+            "icon": {
+              "address": {
+                "type": "local",
+                "identificator": "coin"
+              },
+              "size": {
+                "width": "medium",
+                "height": "medium"
+              },
               "margins": {
-                "top": "1x"
+                "top": "5x",
+                "right": "6x",
+                "bottom": "5x",
+                "left": "8x"
+              },
+              "tint_color": "solid_brand"
+            },
+            "icon_vertical_gravity": "center",
+            "texts": {
+              "title": {
+                "text": "Пополняй",
+                "typeface": "body1",
+                "text_color": "brand"
+              },
+              "subtitle": {
+                "text": "• от 1 000 ₽\r\n• от 2.15 до 3.05\r\n• с пополнением\r\n• без снятия",
+                "typeface": "footnote1",
+                "text_color": "default",
+                "max_lines": 4,
+                "margins": {
+                  "top": "1x"
+                }
               }
             }
-          }
-        },
-        "right": {
-          "type": "disclosure_right_view",
-          "margins": {
-            "top": "8x",
-            "right": "4x",
-            "bottom": "8x"
-          }
-        },
-        "actions": [
-          {
-            "type": "text",
-            "text": "Пополняй"
           },
-          {
-            "type": "server_action",
-            "message_name": "SERVER_ACTION",
-            "server_action": {
-              "action_id": "92"
+          "right": {
+            "type": "disclosure_right_view",
+            "margins": {
+              "top": "8x",
+              "right": "4x",
+              "bottom": "8x"
             }
-          }
-        ]
+          },
+          "actions": [
+            {
+              "type": "text",
+              "text": "Пополняй"
+            },
+            {
+              "type": "server_action",
+              "message_name": "SERVER_ACTION",
+              "server_action": {
+                "action_id": "92"
+              }
+            }
+          ]
+        }
       }
-    }
-  ]
+    ]
+  }
 }
