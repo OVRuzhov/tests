@@ -34,12 +34,12 @@
           "texts": {
             "title": {
               "text": "титульник",
-              "typeface": "footnote1",
+              "typeface": "body1",
               "text_color": "secondary"
             },
             "subtitle": {
               "text": "основная инфа",
-              "typeface": "body1",
+              "typeface": "footnote1",
               "text_color": "default",
               "margins": {
                 "top": "1x"
