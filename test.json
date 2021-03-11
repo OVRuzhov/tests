@@ -1,189 +1,331 @@
 {
-    "type": "list_card",
-    "cells": [
-    {
-      "type": "text_cell_view",
-      "content": {
-        "text": "Изменить реквизиты перевода",
-        "typeface": "headline3",
-        "text_color": "default",
-        "max_lines": 2
+  "messageId": 1,
+  "uuid": {
+    "userChannel": "SBOL",
+    "userId": "local_testing_1",
+    "sub": "d2d6da62-6bdd-452b-b5dd-a145090075ba"
+  },
+  "sessionId": "86024848-c12b-4056-b58b-93c69b412314",
+  "messageName": "ANSWER_TO_USER",
+  "payload": {
+    "device": {
+      "platformType": "IOS",
+      "platformVersion": "12.1",
+      "surface": "SBOL",
+      "surfaceVersion": "11.5",
+      "capabilities": {
+        "screen": {
+          "available": true
+        },
+        "speak": {
+          "available": true
+        }
       },
-      "paddings": {
-        "left": "8x",
-        "top": "6x",
-        "right": "8x",
-        "bottom": "8x"
+      "additionalInfo": {}
+    },
+    "projectName": "Тестовый навык в каталоге",
+    "pronounceText": "Версия UNKNOWN",
+    "items": [
+      {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Общее",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 2
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "UNKNOWN",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Версия",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "2021-03-11T17:25:47.616948",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Запущено",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "prod",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Окружение",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Платформа",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 2
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "IOS",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Тип",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "12.1",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Версия",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Поверхность",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 2
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "SBOL",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Тип",
+              "typeface": "footnote1",
+
+"text_color": "secondary"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "11.5",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Версия",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Персонаж",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 2
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "sber",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Id",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Аpp",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 2
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Тестовый навык в каталоге",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Project",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          }
+        ]
+      },
+      {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Сообщение",
+              "typeface": "headline1",
+              "text_color": "default",
+              "max_lines": 2
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "1",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "mid",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "86024848-c12b-4056-b58b-93c69b412314",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "sessionId",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "SBOL",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Канал",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "local_testing_1",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          },
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "uid",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            }
+          }
+        ]
       }
-    },
-    {
-      "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "paddings": {
-        "left": "0x",
-        "top": "6x",
-        "right": "0x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "arrow_right_trace_line"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
-            "left": "8x"
-          },
-          "tint_color": "solid_white"
-        },
-        "title": {
-          "text": "Счет списания",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x",
-            "left": "8x"
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Изменить счет списания"
-        }
-      ]
-    },
-    {
-      "type": "left_right_cell_view",
-      "divider": {
-        "style": "default",
-        "size": "d5"
-      },
-      "paddings": {
-        "left": "0x",
-        "top": "6x",
-        "right": "0x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "arrow_right_trace_line"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
-            "left": "8x"
-          },
-          "tint_color": "solid_white"
-        },
-        "title": {
-          "text": "Счет зачисления",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x",
-            "left": "8x"
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Изменить счет зачисления"
-        }
-      ]
-    },
-    {
-      "type": "left_right_cell_view",
-      "paddings": {
-        "left": "0x",
-        "top": "6x",
-        "right": "0x",
-        "bottom": "8x"
-      },
-      "left": {
-        "type": "simple_left_view",
-        "icon": {
-          "address": {
-            "type": "local",
-            "identificator": "{% if device.platformType|upper == 'ANDROID' %}{{'total'}}{% else %}{{'color_total'}}{% endif %}"
-          },
-          "size": {
-            "width": "medium",
-            "height": "medium"
-          },
-          "margins": {
-            "top": "5x",
-            "right": "6x",
-            "bottom": "5x",
-            "left": "8x"
-          }
-        },
-        "title": {
-          "text": "Сумма списания",
-          "typeface": "body1",
-          "text_color": "default",
-          "max_lines": 1,
-          "margins": {
-            "top": "9x",
-            "bottom": "9x",
-            "left": "8x"
-          }
-        }
-      },
-      "right": {
-        "type": "disclosure_right_view",
-        "margins": {
-          "top": "8x",
-          "right": "4x",
-          "bottom": "8x"
-        }
-      },
-      "actions": [
-        {
-          "type": "text",
-          "text": "Изменить сумму"
-        }
-      ]
+    ],
+    "auto_listening": true,
+    "finished": true,
+    "historyData": {
+
+"events": [],
+      "projectName": "Тестовый навык в каталоге"
     }
-    ]
-    }
+  }
+}
