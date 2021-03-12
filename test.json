@@ -13,7 +13,7 @@
           "right": "8x"
         },
         "content": {
-          "text": "Функции приложения",
+          "text": "Организации",
           "typeface": "headline3",
           "text_color": "default"
         }
@@ -43,9 +43,17 @@
           "icon_vertical_gravity": "center",
           "texts": {
             "title": {
-              "text": "Оплата по QR-коду",
+              "text": "Билайн",
               "typeface": "body1",
               "text_color": "default"
+            },
+            "subtitle": {
+              "text": "Домашний интернет и ТВ",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
             }
           }
         },
@@ -91,9 +99,17 @@
           "icon_vertical_gravity": "center",
           "texts": {
             "title": {
-              "text": "Оплата QR-кодом",
+              "text": "Билайн",
               "typeface": "body1",
               "text_color": "default"
+            },
+            "subtitle": {
+              "text": "Домашний телефон",
+              "typeface": "footnote1",
+              "text_color": "secondary",
+              "margins": {
+                "top": "1x"
+              }
             }
           }
         },
