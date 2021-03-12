@@ -1,62 +1,115 @@
+{
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "bottom": "8x",
+      "top": "9x"
+    },
+    "cells": [
       {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Общее",
-              "typeface": "headline1",
-              "text_color": "default",
-              "max_lines": 2
+        "type": "text_cell_view",
+        "paddings": {
+          "left": "8x",
+          "right": "8x"
+        },
+        "content": {
+          "text": "Функции приложения",
+          "typeface": "headline3",
+          "text_color": "default"
+        }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "16x",
+          "bottom": "6x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "between_accounts"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "7x",
+              "left": "7x",
             }
           },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "UNKNOWN",
+          "icon_vertical_gravity": "center",
+          "texts": {
+            "title": {
+              "text": "Оплата по QR-коду",
               "typeface": "body1",
               "text_color": "default"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Версия",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "2021-03-11T17:25:47.616948",
-              "typeface": "body1",
-              "text_color": "default"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Запущено",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "prod",
-              "typeface": "body1",
-              "text_color": "default"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Окружение",
-              "typeface": "footnote1",
-              "text_color": "secondary"
             }
           }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "divider": {
+            "style": "default",
+            "size": "d5"
+        },
+        "actions": [
+          {
+            "type": "text",
+            "text": "Вы нажали на текст карточки"
+          }
         ]
-      }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "6x",
+          "bottom": "6x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "local",
+              "identificator": "between_accounts"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "7x",
+              "left": "7x",
+            }
+          },
+          "icon_vertical_gravity": "center",
+          "texts": {
+            "title": {
+              "text": "Оплата QR-кодом",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "actions": [
+          {
+            "type": "text",
+            "text": "Вы нажали на текст карточки"
+          }
+        ]
+      },
+    ]
+  }
+}
