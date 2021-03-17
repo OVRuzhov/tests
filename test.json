@@ -101,76 +101,78 @@
       }
     },
     {
-      "type": "list_card",
-      "cells": [
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": "Платформа",
-            "typeface": "headline3",
-            "text_color": "default",
-            "max_lines": 2
+      "card": {
+        "type": "list_card",
+        "cells": [
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Платформа",
+              "typeface": "headline3",
+              "text_color": "default",
+              "max_lines": 2
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "6x",
+              "right": "8x",
+              "bottom": "6x"
+            }
           },
-          "paddings": {
-            "left": "8x",
-            "top": "6x",
-            "right": "8x",
-            "bottom": "6x"
-          }
-        },
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": "IOS",
-            "typeface": "body1",
-            "text_color": "default"
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "IOS",
+              "typeface": "body1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "3x",
+              "right": "8x"
+            }
           },
-          "paddings": {
-            "left": "8x",
-            "top": "3x",
-            "right": "8x"
-          }
-        },
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": "Тип",
-            "typeface": "footnote1",
-            "text_color": "secondary"
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Тип",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "3x"
+            }
           },
-          "paddings": {
-            "left": "8x",
-            "right": "8x",
-            "bottom": "3x"
-          }
-        },
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": "14.4.1",
-            "typeface": "body1",
-            "text_color": "default"
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "14.4.1",
+              "typeface": "body1",
+              "text_color": "default"
+            },
+            "paddings": {
+              "left": "8x",
+              "top": "3x",
+              "right": "8x"
+            }
           },
-          "paddings": {
-            "left": "8x",
-            "top": "3x",
-            "right": "8x"
+          {
+            "type": "text_cell_view",
+            "content": {
+              "text": "Версия",
+              "typeface": "footnote1",
+              "text_color": "secondary"
+            },
+            "paddings": {
+              "left": "8x",
+              "right": "8x",
+              "bottom": "3x"
+            }
           }
-        },
-        {
-          "type": "text_cell_view",
-          "content": {
-            "text": "Версия",
-            "typeface": "footnote1",
-            "text_color": "secondary"
-          },
-          "paddings": {
-            "left": "8x",
-            "right": "8x",
-            "bottom": "3x"
-          }
-        }
-      ]
+        ]
+      }
     },
     {
       "card": {
