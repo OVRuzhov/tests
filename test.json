@@ -1,522 +1,155 @@
-{
-  "items": [
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Общее",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "6x",
-              "right": "8x",
-              "bottom": "6x"
-            }
+      {
+        "card": {
+          "type": "list_card",
+          "paddings": {
+            "bottom": "8x",
+            "top": "9x"
           },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "D-03.003.00-20",
-              "typeface": "body1",
-              "text_color": "default"
+          "cells": [
+            {
+              "type": "text_cell_view",
+              "paddings": {
+                "left": "8x",
+                "right": "8x"
+              },
+              "content": {
+                "text": "Функции приложения",
+                "typeface": "headline3",
+                "text_color": "default"
+              }
             },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Версия",
-              "typeface": "footnote1",
-              "text_color": "secondary"
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "top": "16x",
+                "bottom": "6x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "logotype_1"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "7x",
+                    "left": "7x"
+                  }
+                },
+                "icon_vertical_gravity": "center",
+                "texts": {
+                  "title": {
+                    "text": "title",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "right": "5x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "deeplink_1"
+                }
+              ]
             },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "2021-03-16T16:25:34.548071",
-              "typeface": "body1",
-              "text_color": "default"
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "top": "16x",
+                "bottom": "6x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "logotype_2"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "7x",
+                    "left": "7x"
+                  }
+                },
+                "icon_vertical_gravity": "center",
+                "texts": {
+                  "title": {
+                    "text": "title",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "right": "5x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "deeplink_2"
+                }
+              ]
             },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
+            {
+              "type": "left_right_cell_view",
+              "paddings": {
+                "top": "16x",
+                "bottom": "6x"
+              },
+              "left": {
+                "type": "simple_left_view",
+                "icon": {
+                  "address": {
+                    "type": "url",
+                    "url": "logotype_3"
+                  },
+                  "size": {
+                    "width": "medium",
+                    "height": "medium"
+                  },
+                  "margins": {
+                    "right": "7x",
+                    "left": "7x"
+                  }
+                },
+                "icon_vertical_gravity": "center",
+                "texts": {
+                  "title": {
+                    "text": "title",
+                    "typeface": "body1",
+                    "text_color": "default"
+                  }
+                }
+              },
+              "right": {
+                "type": "disclosure_right_view",
+                "margins": {
+                  "right": "5x"
+                }
+              },
+              "actions": [
+                {
+                  "type": "deep_link",
+                  "deep_link": "deeplink_3"
+                }
+              ]
             }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Запущено",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "ift",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Окружение",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          }
-        ]
+          ]
+        }
       }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Платформа",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "6x",
-              "right": "8x",
-              "bottom": "6x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "IOS",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Тип",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "14.4.1",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Версия",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Поверхность",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "6x",
-              "right": "8x",
-              "bottom": "6x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "SBOL",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Тип",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "11.13.0",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Версия",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Персонаж",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "6x",
-              "right": "8x",
-              "bottom": "6x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "sber",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Id",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Аpp",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "6x",
-              "right": "8x",
-              "bottom": "6x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Статус розничных навыков",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Project",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Сообщение",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "6x",
-              "right": "8x",
-              "bottom": "6x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "67394276",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "mid",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "b525ad69-33ca-3738-ad75-d3ebc2fe4936",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "sessionId",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "SBOL",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Канал",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "61193616-8D50-4F18-A096-50CFC83A0D0D",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "uid",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          }
-        ]
-      }
-    },
-    {
-      "card": {
-        "type": "list_card",
-        "cells": [
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "Сценарии",
-              "typeface": "headline3",
-              "text_color": "default",
-              "max_lines": 2
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "6x",
-              "right": "8x",
-              "bottom": "6x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "rbapp_status",
-              "typeface": "body1",
-              "text_color": "default"
-            },
-            "paddings": {
-              "left": "8x",
-              "top": "3x",
-              "right": "8x"
-            }
-          },
-          {
-            "type": "text_cell_view",
-            "content": {
-              "text": "0",
-              "typeface": "footnote1",
-              "text_color": "secondary"
-            },
-            "paddings": {
-              "left": "8x",
-              "right": "8x",
-              "bottom": "3x"
-            }
-          }
-        ]
-      }
-    }
-  ]
-}
