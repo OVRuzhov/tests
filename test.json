@@ -1,155 +1,155 @@
+{
+  "card": {
+    "type": "list_card",
+    "paddings": {
+      "bottom": "8x",
+      "top": "9x"
+    },
+    "cells": [
       {
-        "card": {
-          "type": "list_card",
-          "paddings": {
-            "bottom": "8x",
-            "top": "9x"
-          },
-          "cells": [
-            {
-              "type": "text_cell_view",
-              "paddings": {
-                "left": "8x",
-                "right": "8x"
-              },
-              "content": {
-                "text": "Функции приложения",
-                "typeface": "headline3",
-                "text_color": "default"
-              }
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "16x",
-                "bottom": "6x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "logotype_1"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  }
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "title",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "deeplink_1"
-                }
-              ]
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "16x",
-                "bottom": "6x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "logotype_2"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  }
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "title",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "deeplink_2"
-                }
-              ]
-            },
-            {
-              "type": "left_right_cell_view",
-              "paddings": {
-                "top": "16x",
-                "bottom": "6x"
-              },
-              "left": {
-                "type": "simple_left_view",
-                "icon": {
-                  "address": {
-                    "type": "url",
-                    "url": "logotype_3"
-                  },
-                  "size": {
-                    "width": "medium",
-                    "height": "medium"
-                  },
-                  "margins": {
-                    "right": "7x",
-                    "left": "7x"
-                  }
-                },
-                "icon_vertical_gravity": "center",
-                "texts": {
-                  "title": {
-                    "text": "title",
-                    "typeface": "body1",
-                    "text_color": "default"
-                  }
-                }
-              },
-              "right": {
-                "type": "disclosure_right_view",
-                "margins": {
-                  "right": "5x"
-                }
-              },
-              "actions": [
-                {
-                  "type": "deep_link",
-                  "deep_link": "deeplink_3"
-                }
-              ]
-            }
-          ]
+        "type": "text_cell_view",
+        "paddings": {
+          "left": "8x",
+          "right": "8x"
+        },
+        "content": {
+          "text": "Организации",
+          "typeface": "headline3",
+          "text_color": "default"
         }
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "16x",
+          "bottom": "6x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://res.online.sberbank.ru/PhizIC-res/IMG/PU/9e/3e/86/b85cf1e7640fc6bd711638a615_9222.png"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "7x",
+              "left": "7x"
+            }
+          },
+          "icon_vertical_gravity": "center",
+          "texts": {
+            "title": {
+              "text": "",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "sberbankonline://payments/services/init/?cs=140519559&t=ОАО  УК ЖКХ  МосЭнергоСбыт - 3012&source=QuickSearch"
+          }
+        ]
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "16x",
+          "bottom": "6x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://res.online.sberbank.ru/PhizIC-res/IMG/PU/9e/3e/86/b85cf1e7640fc6bd711638a615_9222.png"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "7x",
+              "left": "7x"
+            }
+          },
+          "icon_vertical_gravity": "center",
+          "texts": {
+            "title": {
+              "text": "",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "sberbankonline://payments/services/init/?cs=140519561&t=ОАО  УК ЖКХ  МосЭнергоСбыт - 3001&source=QuickSearch"
+          }
+        ]
+      },
+      {
+        "type": "left_right_cell_view",
+        "paddings": {
+          "top": "16x",
+          "bottom": "6x"
+        },
+        "left": {
+          "type": "simple_left_view",
+          "icon": {
+            "address": {
+              "type": "url",
+              "url": "https://res.online.sberbank.ru/PhizIC-res/IMG/PU/9e/3e/86/b85cf1e7640fc6bd711638a615_9222.png"
+            },
+            "size": {
+              "width": "medium",
+              "height": "medium"
+            },
+            "margins": {
+              "right": "7x",
+              "left": "7x"
+            }
+          },
+          "icon_vertical_gravity": "center",
+          "texts": {
+            "title": {
+              "text": "",
+              "typeface": "body1",
+              "text_color": "default"
+            }
+          }
+        },
+        "right": {
+          "type": "disclosure_right_view",
+          "margins": {
+            "right": "5x"
+          }
+        },
+        "actions": [
+          {
+            "type": "deep_link",
+            "deep_link": "sberbankonline://payments/services/init/?cs=140519562&t=ОАО  УК ЖКХ  МосЭнергоСбыт - 3013&source=QuickSearch"
+          }
+        ]
       }
+    ]
+  }
+}
