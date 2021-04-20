@@ -1,4 +1,5 @@
 {
+            "type": "list_card"
       "cells": [
         {
           "content": {
@@ -217,6 +218,5 @@
         "right": "0x",
         "top": "9x"
       },
-      "can_be_disabled": false,
-      "type": "list_card"
+      "can_be_disabled": false
     }
