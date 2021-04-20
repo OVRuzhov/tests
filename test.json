@@ -1,5 +1,6 @@
-{
-            "type": "list_card",
+  {
+    "type": "list_card",
+    "card": {
       "cells": [
         {
           "content": {
@@ -220,3 +221,4 @@
       },
       "can_be_disabled": false
     }
+  }
